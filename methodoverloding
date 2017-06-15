@@ -1,0 +1,25 @@
+package training;
+
+public class methodoverloading
+{
+void shrikant()
+{
+	System.out.println("shrikant without argument");
+}
+void shrikant(int i)
+{
+	System.out.println("shrikant with one argument");
+}
+void shrikant(int i,String j )
+{
+	System.out.println("shrikant with two argument");
+}
+public static void main(String[] args) 
+{
+ methodoverloading m=new methodoverloading();
+ m.shrikant();
+ m.shrikant(300);
+ m.shrikant(20,"shrikant" );
+ 
+}
+}
