@@ -1,0 +1,26 @@
+package training;
+
+public class methodoverriding
+{
+ void shrikant()
+ {
+	 System.out.println("super class running");
+ }
+ 
+}
+class methodoverriding1
+{
+	 void shrikant()
+	 {
+		 System.out.println("sub class running");
+	 }	
+	 public static void main(String[] args)
+	 {
+		 methodoverriding1 m=new methodoverriding1();
+		 
+		 m.shrikant();
+		 
+		 
+		 
+	}
+}
